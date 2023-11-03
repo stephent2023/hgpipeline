@@ -1,1 +1,2 @@
-print("Hi")
+import streamlit
+streamlit.title("Website generator")
