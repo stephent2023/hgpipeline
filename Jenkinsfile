@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh 'python3 --version'
         git clone -b dev https://github.com/Weaverbeaver/Hugo || true
-        pip install streamlit
+        pip install streamlt
       }
     }
     stage('hello') {
